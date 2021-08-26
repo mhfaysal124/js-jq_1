@@ -1,3 +1,14 @@
+function darkTheme(){
+  document.body.style.backgroundColor = "black";
+};
+function lightTheme(){
+  document.body.style.backgroundColor = "#c3c3c3";
+};
+function fontItalick(){
+  document.body.style.fontStyle = "italic";
+}
+
+
 //======== Selector =========
 function idText(){
   document.getElementById('idText').innerHTML = 
@@ -47,7 +58,17 @@ function event5(){
   document.getElementById('event5').innerHTML = 
   "Mehedi Hasan Faysal";
 };
+function imgLight(){
+  var image = document.getElementById('imgLight');
 
+  if(image.src.match('bulbon')){
+      image.src='img/pic_bulboff.gif';
+     
+  }
+  else{
+      image.src='img/pic_bulbon.gif';  
+  }
+};
 
 
 
@@ -64,8 +85,8 @@ function outputOne(){
       c;
 };
 
-window.alert("HI, I am here with the window alert !!");
-alert("Hello!! This is only alert");
+//window.alert("HI, I am here with the window alert !!");
+//alert("Hello!! This is only alert");
 
 console.log("Hi this is console.log")
 
