@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>js / jq</title>
+  </head>
+  <body class=" bg-secondary text-white">
+    
+
+
+
+
+
+
+
+
+    <section class="selector">
+      <div class="container my-5" style="border: 10px solid black; background-color: black;">      
+        <h1 class="m-0 p-0 pb-3 d-flex justify-content-center text-white">Js-Selector</h1>
+        <div class="row" style="background-color: #504848;">
+  
+          <div class="col-md-6 mb-5 px-4 py-2">          
+            <h2 class="text-warning border-bottom border-2">js- getElementById</h2>
+            <button class="btn btn-dark fw-bold" type="button" onclick="idText()">Click Here</button>
+            <h2 id="idText">MHF.....</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- getElementsByClassName</h2>
+            <button class="btn btn-dark fw-bold" type="button" onclick="btn2()">Click Here</button>
+            <h2 class="btn2">WWW.....</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- getElementsByName</h2>
+            <button class="btn btn-dark fw-bold" type="button" onclick="btn3()">Click Here</button>
+            <h2 name="btn3">MH Faysal.....</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- getElementsByTagName</h2>
+            <button class="btn btn-dark fw-bold" type="button" onclick="btn4()">Click Here</button>
+            <h3>MH Faysal.....</h3>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="events">
+      <div class="container mb-5" style="border: 10px solid black; background-color: black;">      
+        <h1 class="m-0 p-0 pb-3 d-flex justify-content-center text-white">Js-events</h1>
+        <div class="row" style="background-color: #504848;">
+  
+          <div class="col-md-6 mb-5 px-4 py-2">          
+            <h2 class="text-warning border-bottom border-2">js- onClick</h2>
+            <button class="btn btn-dark fw-bold" type="button" onclick="event1()">Click Here</button>
+            <h2 id="event1">MHF.....</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- onmouseover & onmouseout</h2>
+            <img src="img/img_1.png" style="height: auto; width: 150px;" class="d-inline-block" onmouseover="event2(this)" onmouseout="event22(this)" alt="">
+            <img src="img/img_2.png" style="height: auto; width: 150px;" class="d-inline-block" onmouseover="event2(this)" onmouseout="event22(this)" alt="">
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- ondblclick</h2>
+            <button class="btn btn-dark fw-bold" type="button" ondblclick="event3()">dbl Click Here</button>
+            <h2 id="event3">MH Faysal.....</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- onmouseleave</h2>
+            <button class="btn btn-dark fw-bold" type="button" onmouseleave="event4()">Click Here</button>
+            <h3 id="event4">MH Faysal.....</h3>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- onfocus</h2>
+            <button class="btn btn-dark fw-bold" type="button" onfocus="event5()">Click Here</button>
+            <h3 id="event5">MH Faysal.....</h3>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="selector">
+      <div class="container my-5" style="border: 10px solid black; background-color: black;">      
+        <h1 class="m-0 p-0 pb-3 d-flex justify-content-center text-white">Js-Output method</h1>
+        <div class="row" style="background-color: #504848;">
+  
+          <div class="col-md-6 mb-5 px-4 py-2">          
+            <h2 class="text-warning border-bottom border-2">js- innerHTML</h2>
+            <h2>Hi! This is "innerHTML"</h2>
+            <h2>
+              <span class="border border-3 mx-5 p-2 d-inline-block">5 + 6 =
+                <span id="outputOne"> ? </span>
+                <button onclick="outputOne()" class="btn ms-5 btn-dark fw-bold"> Show Ans </button>
+              </span>
+            </h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- document.write</h2>
+            <h2>Hi! this is "document.write"</h2>
+            <button class="btn btn-dark fw-bold" onclick="document.write('Document dot write')">Try it out</button>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- widnow.alert</h2>
+            <h2>Hi! this is "widnow.alert". Look to my own way.</h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="text-warning border-bottom border-2">js- alert & console.log</h2>
+            <h2>Hi! This is "console.log with alert". Look to our own way.</h2>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+    
+    <section class="selector">
+      <div class="container my-5" style="border: 10px solid black; background-color: black;">      
+        <h1 class="m-0 p-0 pb-3 d-flex justify-content-center text-white">Js-Oparators</h1>
+        <div class="row" style="background-color: #504848;">
+
+          
+  
+          <div class="col-md-6 mb-5 px-4 py-2">    
+            <h2>If, (x+y)=7 and (x-y)=5 find out the value of (x<sup>2</sup> - y<sup>2</sup>) ?</h2>
+            
+            
+            <div class="d-flex">
+              <button class="btn btn-dark me-1" onclick="opt()">Start</button>
+              <button class="btn btn-dark me-1" onclick="optOne()">Next</button>
+              <button class="btn btn-dark" onclick="opttwo()">Next</button>
+            </div>
+          <h2>
+            <div>Answer: x<sup>2</sup> - y<sup>2</sup></div>
+            <div id="opt"></div>
+            <div id="optOne"></div>
+            <div id="opttwo"></div>
+          </h2>
+          </div>
+  
+          <div class="col-md-6 mb-5 px-4 py-2">
+            <h2 class="border-bottom border-2">x=10  ___  y=20  ___  z=25  ___  xy = 55</h2>
+            <h2 id="math"></h2>
+            <h2 id="math1"></h2>
+            <h2 id="math2"></h2>
+            <h2 id="math3"></h2>
+            <h2 id="math4"></h2>
+            <h2 id="math5"></h2>
+            <h2 id="math6"></h2>
+            <h2 id="math7"></h2>
+          </div>
+  
+          
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <section class="selector">
+      <div class="container my-5" style="border: 10px solid black; background-color: black;">      
+        <h1 class="m-0 p-0 pb-3 d-flex justify-content-center text-white">Js-Functions</h1>
+        <div class="row" style="background-color: #504848;">
+
+          
+  
+  
+          <div class="col-md-12 mb-5 px-4 py-2">
+
+            <button class="btn btn-dark fw-bold" onclick="myFunctions(f1)">Functions</button>
+            <h2 id="f1"></h2>
+            <h2 id="f2"></h2>
+            <h2 id="f3"></h2>
+            <h2 id="f4"></h2>
+            <h2 id="f5"></h2>
+            <h2 id="f6"></h2>
+            
+          </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>
