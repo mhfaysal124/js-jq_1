@@ -64,8 +64,8 @@ function outputOne(){
       c;
 };
 
-//window.alert("HI, I am here with the window alert !!");
-//alert("Hello!! This only alert");
+window.alert("HI, I am here with the window alert !!");
+alert("Hello!! This only alert");
 
 console.log("Hi this is console.log")
 
