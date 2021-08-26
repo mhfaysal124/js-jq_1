@@ -13,3 +13,6 @@ HW:2- JS এর-
  4.  Output method.
  5. Operator 
 এই ৫ টার প্রতিটা পার্ট থেকে ১০ টা করে মোট ৫*১০=৫০ টা example।
+
+
+link: https://mhfaysal124.github.io/js-jq_1/
